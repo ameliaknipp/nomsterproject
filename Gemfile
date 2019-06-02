@@ -70,6 +70,8 @@ gem 'simple_form'
 ## Gemfile for Rails 3+, Sinatra, and Merb
 gem 'will_paginate', '~> 3.1.0'
 
+gem "font-awesome-rails"
+
 source 'http://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
