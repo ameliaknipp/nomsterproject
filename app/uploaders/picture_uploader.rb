@@ -1,6 +1,7 @@
 
 
 class PictureUploader < CarrierWave::Uploader::Base
+  
 mount_uploader :picture, PictureUploader
 
   # Include RMagick or MiniMagick support:
