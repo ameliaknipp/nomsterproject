@@ -18,6 +18,19 @@
   padding: 20px;
 }
 
+a:link, a:visited {
+  background-color: #b9b6ba;
+  color: white;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: grey;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin:0;
   padding:0;
