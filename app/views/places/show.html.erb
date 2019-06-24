@@ -42,7 +42,7 @@
   </script>
 
   <script async defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABEe_6E6EKo7bml-eFgsInhBT7Uj_j5iA=initMap">
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNaQYPqTKgrlbh4Qfg11yTiqYD3k3PXLc=initMap">
   </script>
 
   <div id="map"></div>
@@ -166,11 +166,14 @@
 
     <div class="booyah-box col-xs-10 col-xs-offset-1">
       <% @place.photos.each do |photo| %>
+      <% if photo.picture.url %>
       <%= image_tag photo.picture.url %>
       <blockquote>
       <%= photo.caption %>
       </blockquote>
       <% end %>
+      <% end %>
+   
 
 
 </div>
